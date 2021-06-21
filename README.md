@@ -36,11 +36,12 @@ Window Function ( RANK, LAG, LEAD)
 
 ## Python
 
-**Data Manipulation**: [StrataScratch](https://platform.stratascratch.com/coding) (Pratice solving sql problems in python Pandas DataFrame. Great discount if you register with university email )
-**Algorithm**: [Leetcode](https://leetcode.com/problemset/all/)  (Start from high frequency easy and median questions, key is not how many you solved but how many you actually understand)
+* **Data Manipulation**: [StrataScratch](https://platform.stratascratch.com/coding) (Pratice solving sql problems in python Pandas DataFrame. Great discount if you register with university email )
+* **Algorithm**: [Leetcode](https://leetcode.com/problemset/all/)  (Start from high frequency easy and median questions, key is not how many you solved but how many you actually understand)
 
 [back to top](#Data_Science_Interview_Preparation)
 
+## Statistics and Machine Learning In General
 
 * [Project Workflow](#project-workflow)
 * [Cross Validation](#cross-validation)
