@@ -1,6 +1,6 @@
 # Data_Science_Interview_Preparation
 The purpose of this repo is to help prepare for data science related interviews. 
-There are so many data science interview preparation materials all over the place. This is more of a quick reference rather than an in-depth study material. No matter you're an experienced data scientist or a fresh new graduate. Stick on one plan and finished it, you'll get an yes soon or later. 
+There are so many data science interview preparation materials all over the place. This is more of a quick reference rather than an in-depth study material. No matter you're an experienced data scientist or a fresh new graduate. Let's stick on one plan and we'll get an yes soon or later. 
 
 Finger Cross!
 
@@ -29,7 +29,7 @@ Window Function ( RANK, LAG, LEAD)
 
 ## python
 **Data Manipulation**: StrataScratch (Pratice solving sql problems in python Pandas DataFrame. Great discount if you register with university email )
-**Algorithm**: Leetcode (Start from high frequent easy and median questions, key is not how many you solved but how many you actually understand)
+**Algorithm**: Leetcode (Start from high frequency easy and median questions, key is not how many you solved but how many you actually understand)
 
 [back to top](#Data_Science_Interview_Preparation)
 
