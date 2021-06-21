@@ -1,6 +1,6 @@
 # Data_Science_Interview_Preparation
 The purpose of this repo is to help prepare for data science related interviews. 
-There are so many data science interview preparation materials all over the place. This is more of a quick reference rather than an in-depth study material. No matter you're an experienced data scientist or a fresh new graduate. Let's stick on one plan and we'll get an yes soon or later. 
+There are so many data science interview preparation materials all over the place. This is more of a quick reference rather than an in-depth study material. No matter you're an experienced data scientist or a fresh new graduate. Let's stick on one plan and you'll get an yes soon or later. 
 
 Finger Cross!
 
@@ -8,7 +8,7 @@ Here are the contents
 
 * [3 Types of Data Science Roles] (#Major_Data_Scientist_Roles)
 * [SQL](#sql)
-* [Python] (#Python)
+* [Python](#Python)
 * [Statistics and Machine Learning In General](#statistics-and-ml-in-general)
 * [Supervised Learning](#supervised-learning)
 * [Unsupervised Learning](#unsupervised-learning)
@@ -19,8 +19,8 @@ Here are the contents
 ## SQL
 ### Practice Materials
 
-* **MySQL**: Leetcode (Practice 3-5 times all database question, start from high frequency)
-* **Postgresql**: StrataScratch (Pratice real SQL questions from real data science company, filter by company's name)
+* **MySQL**: [Leetcode](https://leetcode.com/problemset/all/) (Practice 3-5 times all database question, start from high frequency)
+* **Postgresql**: [StrataScratch](https://platform.stratascratch.com/coding) (Pratice real SQL questions from real data science company, filter by company's name)
 * **Basic Concepts**:
 Left Join/Right Join/Inner Join/Full Outer Join
 Window Function ( RANK, LAG, LEAD)
@@ -29,10 +29,11 @@ Window Function ( RANK, LAG, LEAD)
 
 ## Python
 
-**Data Manipulation**: StrataScratch (Pratice solving sql problems in python Pandas DataFrame. Great discount if you register with university email )
-**Algorithm**: Leetcode (Start from high frequency easy and median questions, key is not how many you solved but how many you actually understand)
+**Data Manipulation**: [StrataScratch](https://platform.stratascratch.com/coding) (Pratice solving sql problems in python Pandas DataFrame. Great discount if you register with university email )
+**Algorithm**: [Leetcode](https://leetcode.com/problemset/all/)  (Start from high frequency easy and median questions, key is not how many you solved but how many you actually understand)
 
 [back to top](#Data_Science_Interview_Preparation)
+
 
 * [Project Workflow](#project-workflow)
 * [Cross Validation](#cross-validation)
