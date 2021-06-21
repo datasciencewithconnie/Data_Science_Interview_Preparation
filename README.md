@@ -6,7 +6,7 @@ Finger Cross!
 
 Here are the contents
 
-* [3 Types of Data Science Roles] (#3_Major_Data_Scientist_Roles)
+* [3 Types of Data Science Roles] (#3 Types of Data Science Roles)
 * [SQL](#sql)
 * [Python](#Python)
 * [Statistics and Machine Learning In General](#statistics-and-ml-in-general)
