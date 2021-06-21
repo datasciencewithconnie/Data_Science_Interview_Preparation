@@ -8,7 +8,7 @@ Here are the contents
 
 * [3 Types of Data Science Roles] (#Major_Data_Scientist_Roles)
 * [SQL](#sql)
-* [Python/R] (#python)
+* [Python/R] (#Python)
 * [Statistics and Machine Learning In General](#statistics-and-ml-in-general)
 * [Supervised Learning](#supervised-learning)
 * [Unsupervised Learning](#unsupervised-learning)
@@ -27,7 +27,7 @@ Window Function ( RANK, LAG, LEAD)
 
 [back to top](#Data_Science_Interview_Preparation)
 
-## python
+## Python
 **Data Manipulation**: StrataScratch (Pratice solving sql problems in python Pandas DataFrame. Great discount if you register with university email )
 **Algorithm**: Leetcode (Start from high frequency easy and median questions, key is not how many you solved but how many you actually understand)
 
