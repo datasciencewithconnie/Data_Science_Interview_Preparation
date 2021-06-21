@@ -6,7 +6,7 @@ Finger Cross!
 
 Here are the contents
 
-* [3 Types of Data Science Roles] (#Major_Data_Scientist_Roles)
+* [3 Types of Data Science Roles] (#3_Major_Data_Scientist_Roles)
 * [SQL](#sql)
 * [Python](#Python)
 * [Statistics and Machine Learning In General](#statistics-and-ml-in-general)
@@ -15,6 +15,13 @@ Here are the contents
 * [Reinforcement Learning](#reinforcement-learning)
 * [Natural Language Processing](#natural-language-processing)
 
+## 3 Types of Data Science Roles
+
+* **Product Analytics**: This type of roles focus on A/B Testing and product analytics. Need to have strong business sense and SQL skills. Python questions are barely asked for those roles (Eg. Facebook Analytics DS, Tiktok Ads DS, Uber product analyst)
+* **Marketing Monetization**: This type of roles focus on optimizing marketing portfolio, do a lot of work about casual inference and data visualization. (Eg. Spotify marketing DS )
+* **Machine Learning Modeling**: This type of roles focus on modeling(ML/NLP), Phd preferred but not required. Interview questions will includes Machine learning model concept questions,data manipulation in SQL and Python at least 1 round and algorithm in Python/R  (Eg. Apple map routing optimization)
+
+[back to top](#Data_Science_Interview_Preparation)
 
 ## SQL
 ### Practice Materials
