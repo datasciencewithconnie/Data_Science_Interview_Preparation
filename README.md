@@ -1,16 +1,35 @@
-# Data_Science_Interview_Preparation
+#Data_Science_Interview_Preparation
 The purpose of this repo is to help prepare for data science related interviews. 
-This is more of a quick reference rather than an in-depth study material.
+There are so many data science interview preparation materials all over the place. This is more of a quick reference rather than an in-depth study material. No matter you're an experienced data scientist or a fresh new graduate. Stick on one plan and finished it, you'll get an yes soon or later. 
+
+Finger Cross!
 
 Here are the contents
 
 * [SQL](#sql)
-* [Tools and Framework](#tools-and-framework)
+* [Python/R] (#python)
 * [Statistics and Machine Learning In General](#statistics-and-ml-in-general)
 * [Supervised Learning](#supervised-learning)
 * [Unsupervised Learning](#unsupervised-learning)
 * [Reinforcement Learning](#reinforcement-learning)
 * [Natural Language Processing](#natural-language-processing)
+
+
+## SQL
+### Practice Materials
+
+* **MySQL**: Leetcode (Practice 3-5 times all database question, start from high frequency)
+* **Postgresql**: StrataScratch (Pratice real SQL questions from real data science company, filter by company's name)
+* **Basic Concepts**:
+Left Join/Right Join/Inner Join/Full Outer Join
+Window Function ( RANK, LAG, LEAD)
+
+[back to top](#Data_Science_Interview_Preparation)
+
+## python
+**Data Manipulation**: StrataScratch (Pratice solving sql problems in python Pandas DataFrame. Great discount if you register with university email )
+**Algorithm**: Leetcode (Start from high frequent easy and median questions, key is not how many you solved but how many you actually understand)
+
 
 * [Project Workflow](#project-workflow)
 * [Cross Validation](#cross-validation)
