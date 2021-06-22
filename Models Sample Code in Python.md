@@ -42,8 +42,8 @@ Using this algorithm, the machine is trained to make specific decisions. It work
 * It is used to estimate real coutinuous values (cost of cars, number of calls, total sales etc.) Here, we establish relationship between independent and dependent variables by fitting a best line.
 * The coefficients are derived based on minimizing the sum of squared difference of distance between data points and regression line.
 * Linear Regression is mainly of two types: 
-  * Simple Linear Regression:  characterized by one independent variable
-  * Multiple Linear Regression: characterized by multiple (more than 1) independent variables (aka polynomial or curvilinear regression)
+  * **Simple Linear Regression**:  characterized by one independent variable
+  * **Multiple Linear Regression**: characterized by multiple (more than 1) independent variables (aka polynomial or curvilinear regression)
   
 [back to top](#Common-Machine-Learning-Algorithms-and-sample-code-in-Python)
 
