@@ -8,7 +8,7 @@ The purpose of this repo is to quick refresh Sql and Python codes. The questions
 * 1.Question - Activity Rank
 * Output the user, total emails, and their activity rank(based on their total number of email they sent).
 
-* **SQL**
+* **SQL Answer**
 ```
  select 
  from_user as sender,
@@ -18,7 +18,7 @@ The purpose of this repo is to quick refresh Sql and Python codes. The questions
  group by from_user
  ```
 
-* **Python**
+* **Python Answer**
  ```
  import pandas as pd
  import numpy as np
