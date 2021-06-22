@@ -34,4 +34,4 @@ Using this algorithm, the machine is trained to make specific decisions. It work
 
   
   # Linear Regression
-  [back to top](#Common Machine Learning Algorithms and sample code in Python)
+  [back to top](#Common-Machine-Learning-Algorithms-and-sample-code-in-Python)
