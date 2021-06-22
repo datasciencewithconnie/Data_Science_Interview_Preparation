@@ -6,7 +6,7 @@ While in most data science interviews, algorithm is not mandatory required by th
 * **1.Two Sum**
 * Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
-* Python Answer
+* Python3 Answer
 ```
 class Solution:
     def twoSum(self, nums: List[int], target: int):
@@ -22,7 +22,6 @@ class Solution:
 * **2.Best time to buy and sell stock**
 * 
 
-* Python Answer
 ```
 
 ```
@@ -30,7 +29,6 @@ class Solution:
 * **3.Verify an Alien Dictionary**
 * 
 
-* Python Answer
 ```
 
 ```
@@ -38,7 +36,7 @@ class Solution:
 * **4.Valid Parentheses**
 * 
 
-* Python Answer
+
 ```
 
 ```
@@ -46,7 +44,6 @@ class Solution:
 * **5.Reverse Integer**
 * 
 
-* Answer
 ```
 
 ```
