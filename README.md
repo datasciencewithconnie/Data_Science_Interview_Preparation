@@ -38,6 +38,7 @@ Window Function ( RANK, LAG, LEAD)
 
 * **Data Manipulation**: [StrataScratch](https://platform.stratascratch.com/coding) (Pratice solving sql problems in python Pandas DataFrame. Great discount if you register with university email )
 * **Algorithm**: [Leetcode](https://leetcode.com/problemset/all/)  (Start from high frequency easy and median questions, key is not how many you solved but how many you actually understand)
+* **Writing SQL Questions in Python** Please find details in my repo - solving SQL questions using Python Pandas
 
 [back to top](#Data_Science_Interview_Preparation)
 
