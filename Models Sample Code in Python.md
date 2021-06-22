@@ -49,6 +49,13 @@ Using this algorithm, the machine is trained to make specific decisions. It work
 
 # Logistic Regression
 
+* It is used to estimate discrete values ( Binary values like 0/1, yes/no, true/false ) based on given set of independent variable(s).
+* The log odds of the outcome is modeled as a linear combination of the predictor variables.
+```
+odds= p/ (1-p) = probability of event occurrence / probability of not event occurrence
+ln(odds) = ln(p/(1-p))
+logit(p) = ln(p/(1-p)) = b0+b1X1+b2X2+b3X3....+bkXk
+```
 [back to top](#Common-Machine-Learning-Algorithms-and-sample-code-in-Python)
 
 # Decision Tree
