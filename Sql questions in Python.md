@@ -5,7 +5,8 @@ The purpose of this repo is to quick refresh Sql and Python codes. The questions
 
 # Google
 
-* 1. Activity Rank
+* 1.Question - Activity Rank
+* Output the user, total emails, and their activity rank(based on their total number of email they sent).
 
 * **SQL**
 ```
