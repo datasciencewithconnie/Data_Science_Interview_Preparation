@@ -1,7 +1,7 @@
 
 # Data Science Coding Question Answer :+1:
 
-The purpose of this repo is to quick refresh Sql and Python codes. The questions will be listed by Company and answers will be provided in both SQL and Python.
+The purpose of this repo is to quick refresh Sql and Python codes. The questions will be listed by Company and the answers will be provided in both SQL and Python.
 
 # Google
 
