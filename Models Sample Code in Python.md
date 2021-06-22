@@ -5,7 +5,7 @@ Today, as a data scientist, I can build data-crunching machines with complex alg
 
 The idea behind creating this guide is to simplify the journey of aspiring data scientists and machine learning enthusiasts across the world. Through this guide, I will enable you to work on machine learning problems and gain from experience. I am providing a high-level understanding of various machine learning algorithms along with Python codes to run them. These should be sufficient to get your hands dirty.
 
-Here is the list of commonly used machine learning algorithms. These algorithms can be applied to almost any data problem:
+### Here is the list of commonly used machine learning algorithms. These algorithms can be applied to almost any data problem:
 
 * [Linear Regression](#linear-Regression)
 * [Logistic Regression](#logistic-regression)
@@ -22,7 +22,7 @@ Here is the list of commonly used machine learning algorithms. These algorithms 
   * [LightGBM](#lightgbm)
   * [CatBoost](#catboost)
 
-Before dive deep into the specific algorithm, broadly speaking, there are 3 major types of machine learning algorithm.
+#### Before dive deep into the specific algorithm, broadly speaking, there are 3 major types of machine learning algorithm.
 
 ### Supervised Learning
 
@@ -37,5 +37,52 @@ In this algorithm, we do not have any target or outcome variable to predict / es
 Using this algorithm, the machine is trained to make specific decisions. It works this way: the machine is exposed to an environment where it trains itself continually using trial and error. This machine learns from past experience and tries to capture the best possible knowledge to make accurate business decisions. Example of Reinforcement Learning: Markov Decision Process
 
   
-  # Linear Regression
+# Linear Regression
+
+It is used to estimate real values (cost of houses, number of calls, total sales etc.) based on continuous variable(s). Here, we establish relationship between independent and dependent variables by fitting a best line.
+  
+  
+[back to top](#Common-Machine-Learning-Algorithms-and-sample-code-in-Python)
+
+# Logistic Regression
+
+[back to top](#Common-Machine-Learning-Algorithms-and-sample-code-in-Python)
+
+# Decision Tree
+
+[back to top](#Common-Machine-Learning-Algorithms-and-sample-code-in-Python)
+# SVM
+
+[back to top](#Common-Machine-Learning-Algorithms-and-sample-code-in-Python)
+# Naive Bayes
+
+[back to top](#Common-Machine-Learning-Algorithms-and-sample-code-in-Python)
+# kNN
+
+[back to top](#Common-Machine-Learning-Algorithms-and-sample-code-in-Python)
+# K-Means
+
+[back to top](#Common-Machine-Learning-Algorithms-and-sample-code-in-Python)
+# Random Forest
+
+[back to top](#Common-Machine-Learning-Algorithms-and-sample-code-in-Python)
+# Dimensionality Reduction Algorithms
+
+[back to top](#Common-Machine-Learning-Algorithms-and-sample-code-in-Python)
+# Gradient Boosting algorithms
+
+[back to top](#Common-Machine-Learning-Algorithms-and-sample-code-in-Python)
+  ## GBM
+  
   [back to top](#Common-Machine-Learning-Algorithms-and-sample-code-in-Python)
+  ## XGBoost
+  
+  [back to top](#Common-Machine-Learning-Algorithms-and-sample-code-in-Python)
+  ## LightGBM
+  
+  [back to top](#Common-Machine-Learning-Algorithms-and-sample-code-in-Python)
+  ## CatBoost
+  
+  [back to top](#Common-Machine-Learning-Algorithms-and-sample-code-in-Python)
+
+
