@@ -56,6 +56,10 @@ odds= p/ (1-p) = probability of event occurrence / probability of not event occu
 ln(odds) = ln(p/(1-p))
 logit(p) = ln(p/(1-p)) = b0+b1X1+b2X2+b3X3....+bkXk
 ```
+* p is the probability of presence of the characteristic of interest. **It chooses parameters that maximize the likelihood of observing the sample values** rather than that minimize the sum of squared errors (like in ordinary regression).
+
+
+
 [back to top](#Common-Machine-Learning-Algorithms-and-sample-code-in-Python)
 
 # Decision Tree
