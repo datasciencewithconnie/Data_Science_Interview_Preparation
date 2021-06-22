@@ -1,6 +1,10 @@
 
 # Common Machine Learning Algorithms and sample code in Python
 
+Today, as a data scientist, I can build data-crunching machines with complex algorithms for a few dollars per hour. But reaching here wasn’t easy! I had my dark days and nights.
+
+The idea behind creating this guide is to simplify the journey of aspiring data scientists and machine learning enthusiasts across the world. Through this guide, I will enable you to work on machine learning problems and gain from experience. I am providing a high-level understanding of various machine learning algorithms along with Python codes to run them. These should be sufficient to get your hands dirty.
+
 Here is the list of commonly used machine learning algorithms. These algorithms can be applied to almost any data problem:
 
 * [Linear Regression](#linear-Regression)
