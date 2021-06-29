@@ -14,12 +14,12 @@ Here are the questions list:
 * [6-Common Friends Friend](#6-Common-Friends-Friend)
 * [7-File Contents Shuffle](#7-File-Contents-Shuffle)
 * [8-Price Of A Handyman](#8-Price-Of-A-Handyman)
-* [9.Words With Two Vowels](#9-Words-With-Two-Vowels)
+* [9-Words With Two Vowels](#9-Words-With-Two-Vowels)
 * 
 ### Airbnb:
 
-* [10.3 Bed Minimum](#10-3-Bed-Minimum)
-* [11.Cheapest Properties](#11-Cheapest-Properties)
+* [10-3 Bed Minimum](#10-3-Bed-Minimum)
+* [11-Cheapest Properties](#11-Cheapest-Properties)
 
 
 ### 1-Activity Rank
@@ -188,3 +188,13 @@ result=google_adwords_earnings.groupby(['business_type'])['adwords_earnings'].su
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
+### 12
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
+
+```
+[back to top](#Data-Science-Coding-Question-Answers)
