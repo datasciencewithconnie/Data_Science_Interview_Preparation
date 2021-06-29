@@ -5,13 +5,14 @@
 
 Here are the question list:
 
-# Google:
-* [1.Activity Rank](#activity-rank)
-* [2.Find Correlation Between E-mails And Activity Time](#Find-Correlation-Between-E-mails-And-Activity-Time)
+### Google:
+* [1.Activity Rank](#1.activity-rank)
+* [2.Find Correlation Between E-mails And Activity Time](#2.Find-Correlation-Between-E-mails-And-Activity-Time)
 
+### Airbnb:
 
 ### 1.Activity Rank
-* Output the user, total emails, and their activity rank(based on their total number of email they sent.
+* Output the ***user, total emails, and their activity rank*** (based on their total number of email they sent).
 
 * **SQL Answer**
 ```
@@ -36,7 +37,7 @@ Here are the question list:
 [back to top](#Data-Science-Coding-Question-Answers)
 
 ### 2.Find Correlation Between E-mails And Activity Time
-
+* Find the correlation between the ***number of emails received*** and the ***total exercise per day***. The total exercise per day is calculated by counting the number of user sessions per day.
 * **SQL Answer**
 ```
 with email as (
