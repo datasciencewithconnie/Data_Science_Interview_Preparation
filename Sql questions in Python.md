@@ -11,7 +11,7 @@ Here are the question list:
 
 
 ## 1.Activity Rank
-* Output the user, total emails, and their activity rank(based on their total number of email they sent).
+* Output the user, total emails, and their activity rank(based on their total number of email they sent.
 
 * **SQL Answer**
 ```
@@ -32,6 +32,8 @@ Here are the question list:
  result=df.groupby(['from_user']).size().to_frame('total_emails').reset_index()
  result['rank']=result['total_emails'].rank(method='first',ascending=False)
 ```
+
+[back to top](#Data-Science-Coding-Question-Answer)
 
 * 2.Question - Find Correlation Between E-mails And Activity Time
 
