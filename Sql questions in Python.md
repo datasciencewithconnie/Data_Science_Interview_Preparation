@@ -3,9 +3,13 @@
 
 The purpose of this repo is to quick refresh Sql and Python codes. The questions will be listed by Company and the answers will be provided in both SQL and Python.
 
+Here are the question list:
+
+[1.Activity Rank](#activity-rank)
+
 # Google
 
-* 1.Question - Activity Rank
+* [1.Question - Activity Rank](#activity-rank)
 * Output the user, total emails, and their activity rank(based on their total number of email they sent).
 
 * **SQL Answer**
