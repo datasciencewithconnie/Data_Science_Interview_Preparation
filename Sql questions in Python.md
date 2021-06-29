@@ -7,10 +7,10 @@ Here are the question list:
 
 # Google:
 * [1.Activity Rank](#activity-rank)
+* [2.Find Correlation Between E-mails And Activity Time](#Find-Correlation-Between-E-mails-And-Activity-Time)
 
 
-
-## 1.Activity Rank
+### 1.Activity Rank
 * Output the user, total emails, and their activity rank(based on their total number of email they sent.
 
 * **SQL Answer**
@@ -35,7 +35,7 @@ Here are the question list:
 
 [back to top](#Data-Science-Coding-Question-Answers)
 
-* 2.Find Correlation Between E-mails And Activity Time
+### 2.Find Correlation Between E-mails And Activity Time
 
 * **SQL Answer**
 ```
@@ -69,14 +69,15 @@ merged=pd.merge(mail_base,location,left_on=['day','to_user'],right_on=['day','us
 # corr() function to calculate correlation
 result=merged['n_emails'].corr(merged['total_exercise'])
 ```
+[back to top](#Data-Science-Coding-Question-Answers)
 
-* .Question - 
+### 4. 
 * **SQL Answer**
 ```
 
- ```
- 
- * **Python Answer**
- ```
+```
+* **Python Answer** 
+```
 
 ```
+[back to top](#Data-Science-Coding-Question-Answers)
