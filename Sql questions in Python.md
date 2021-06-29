@@ -9,7 +9,7 @@ Here are the questions list:
 * [1-Activity Rank](#1-Activity-Rank)
 * [2-Find Correlation Between E-mails And Activity Time](#2-Find-Correlation-Between-E-mails-And-Activity-Time)
 * [3-Total AdWords Earnings](#3-Total-Adwords-Earnings)
-* [4-User Email Labels](#4-User-Email-Lablels)
+* [4-User Email Labels](#4-User-Email-Labels)
 * [5-Common Letters](#5-Common-Letters)
 * [6-Common Friends Friend](#6-Common-Friends-Friend)
 * [7-File Contents Shuffle](#7-File-Contents-Shuffle)
@@ -99,6 +99,7 @@ result=google_adwords_earnings.groupby(['business_type'])['adwords_earnings'].su
 [back to top](#Data-Science-Coding-Question-Answers)
 
 ### 4-User Email Labels
+
 * **SQL Answer**
 ```
 
