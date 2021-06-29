@@ -5,11 +5,12 @@ The purpose of this repo is to quick refresh Sql and Python codes. The questions
 
 Here are the question list:
 
-[1.Activity Rank](#activity-rank)
+# Google:
+* [1.Activity Rank](#activity-rank)
 
-# Google
 
-* [1.Question - Activity Rank](#activity-rank)
+
+## 1.Activity Rank
 * Output the user, total emails, and their activity rank(based on their total number of email they sent).
 
 * **SQL Answer**
