@@ -15,7 +15,7 @@ Here are the questions list:
 * [7-File Contents Shuffle](#7-File-Contents-Shuffle)
 * [8-Price Of A Handyman](#8-Price-Of-A-Handyman)
 * [9-Words With Two Vowels](#9-Words-With-Two-Vowels)
-* 
+
 ### Airbnb:
 
 * [10-3 Bed Minimum](#10-3-Bed-Minimum)
