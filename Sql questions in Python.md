@@ -75,7 +75,7 @@ result=merged['n_emails'].corr(merged['total_exercise'])
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
-### 3.Total AdWords Earnings
+### Total AdWords Earnings
 Find the ***total AdWords earnings for each business type***. Output the business types along with the total earnings.
 
 * **SQL Answer**
@@ -90,7 +90,7 @@ result=google_adwords_earnings.groupby(['business_type'])['adwords_earnings'].su
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
-### 4. 
+### 
 * **SQL Answer**
 ```
 
