@@ -6,7 +6,7 @@
 Here are the question list:
 
 ### Google:
-* [1.Activity Rank](#1.activity-rank)
+* [1.Activity Rank](#1.Activity-Rank)
 * [2.Find Correlation Between E-mails And Activity Time](#2.Find-Correlation-Between-E-mails-And-Activity-Time)
 
 ### Airbnb:
