@@ -39,7 +39,7 @@ Here are the questions list:
 
 [back to top](#Data-Science-Coding-Question-Answers)
 
-### Find Correlation Between E-mails And Activity Time
+### 2-Find Correlation Between E-mails And Activity Time
 * Find the correlation between the ***number of emails received*** and the ***total exercise per day***. The total exercise per day is calculated by counting the number of user sessions per day.
 * **SQL Answer**
 ```
@@ -75,7 +75,7 @@ result=merged['n_emails'].corr(merged['total_exercise'])
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
-### Total AdWords Earnings
+### 3-Total AdWords Earnings
 Find the ***total AdWords earnings for each business type***. Output the business types along with the total earnings.
 
 * **SQL Answer**
