@@ -8,6 +8,7 @@ Here are the questions list:
 ### Google:
 * [1.Activity Rank](#Activity-Rank)
 * [2.Find Correlation Between E-mails And Activity Time](#Find-Correlation-Between-E-mails-And-Activity-Time)
+* [3.Total AdWords Earnings](#Total-Adwords-Earnings)
 
 ### Airbnb:
 * 
@@ -71,6 +72,21 @@ merged=pd.merge(mail_base,location,left_on=['day','to_user'],right_on=['day','us
 
 # corr() function to calculate correlation
 result=merged['n_emails'].corr(merged['total_exercise'])
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+### 3.Total AdWords Earnings
+Find the ***total AdWords earnings for each business type***. Output the business types along with the total earnings.
+
+* **SQL Answer**
+```
+select business_type, sum(adwords_earnings)as total_earnings
+from google_adwords_earnings
+group by business_type
+```
+* **Python Answer** 
+```
+result=google_adwords_earnings.groupby(['business_type'])['adwords_earnings'].sum().reset_index()
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
