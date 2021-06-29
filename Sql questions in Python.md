@@ -6,12 +6,20 @@
 Here are the questions list:
 
 ### Google:
-* [1.Activity Rank](#1-Activity-Rank)
-* [2.Find Correlation Between E-mails And Activity Time](#2-Find-Correlation-Between-E-mails-And-Activity-Time)
-* [3.Total AdWords Earnings](#3-Total-Adwords-Earnings)
-
-### Airbnb:
+* [1-Activity Rank](#1-Activity-Rank)
+* [2-Find Correlation Between E-mails And Activity Time](#2-Find-Correlation-Between-E-mails-And-Activity-Time)
+* [3-Total AdWords Earnings](#3-Total-Adwords-Earnings)
+* [4-User Email Labels](#4-User-Email-Lablels)
+* [5-Common Letters](#5-Common-Letters)
+* [6-Common Friends Friend](#6-Common-Friends-Friend)
+* [7-File Contents Shuffle](#7-File-Contents-Shuffle)
+* [8-Price Of A Handyman](#8-Price-Of-A-Handyman)
+* [9.Words With Two Vowels](#9-Words-With-Two-Vowels)
 * 
+### Airbnb:
+
+* [10.3 Bed Minimum](#10-3-Bed-Minimum)
+* [11.Cheapest Properties](#11-Cheapest-Properties)
 
 
 ### 1-Activity Rank
@@ -90,7 +98,7 @@ result=google_adwords_earnings.groupby(['business_type'])['adwords_earnings'].su
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
-### 4-
+### 4-User Email Labels
 * **SQL Answer**
 ```
 
@@ -101,7 +109,9 @@ result=google_adwords_earnings.groupby(['business_type'])['adwords_earnings'].su
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
-### 5-
+
+
+### 5-Common Letters
 * **SQL Answer**
 ```
 
@@ -112,7 +122,7 @@ result=google_adwords_earnings.groupby(['business_type'])['adwords_earnings'].su
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
-### 6-
+### 6-Common Friends Friend
 * **SQL Answer**
 ```
 
@@ -123,7 +133,7 @@ result=google_adwords_earnings.groupby(['business_type'])['adwords_earnings'].su
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
-### 7-
+### 7-File Contents Shuffle
 * **SQL Answer**
 ```
 
@@ -134,7 +144,7 @@ result=google_adwords_earnings.groupby(['business_type'])['adwords_earnings'].su
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
-### 8-
+### 8-Price Of A Handyman
 * **SQL Answer**
 ```
 
@@ -145,7 +155,7 @@ result=google_adwords_earnings.groupby(['business_type'])['adwords_earnings'].su
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
-### 9-
+### 9-Words With Two Vowels
 * **SQL Answer**
 ```
 
@@ -156,7 +166,7 @@ result=google_adwords_earnings.groupby(['business_type'])['adwords_earnings'].su
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
-### 10-
+### 10-3 Bed Minimum
 * **SQL Answer**
 ```
 
@@ -167,7 +177,7 @@ result=google_adwords_earnings.groupby(['business_type'])['adwords_earnings'].su
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
-### 11-
+### 11-Cheapest Properties
 * **SQL Answer**
 ```
 
@@ -177,3 +187,4 @@ result=google_adwords_earnings.groupby(['business_type'])['adwords_earnings'].su
 
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
+
