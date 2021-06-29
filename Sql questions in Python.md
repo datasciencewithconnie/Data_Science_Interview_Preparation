@@ -27,3 +27,26 @@ The purpose of this repo is to quick refresh Sql and Python codes. The questions
  result=df.groupby(['from_user']).size().to_frame('total_emails').reset_index()
  result['rank']=result['total_emails'].rank(method='first',ascending=False)
 ```
+
+* 2.Question - Find Correlation Between E-mails And Activity Time
+
+* **SQL Answer**
+```
+
+ ```
+ 
+ * **Python Answer**
+ ```
+
+```
+
+* .Question - 
+* **SQL Answer**
+```
+
+ ```
+ 
+ * **Python Answer**
+ ```
+
+```
