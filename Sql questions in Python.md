@@ -32,12 +32,35 @@ The purpose of this repo is to quick refresh Sql and Python codes. The questions
 
 * **SQL Answer**
 ```
+with email as (
+select email_recieved, exercise_per_day from
+(select count(distinct g.id) as email_recieved, g.to_user, g.day
+from google_gmail_emails g
+group by g.day,g.to_user) a
+inner join
+(select f.day,count(distinct session_id) as exercise_per_day, f.user_id
+from google_fit_location f
+group by f.day,f.user_id) b
+on a.day=b.day and a.to_user=b.user_id)
 
- ```
+select corr(email_recieved, exercise_per_day)
+from email
+
+```
  
  * **Python Answer**
- ```
+```
+#find recieved emails by day
+mail_base=google_gmail_emails.groupby(['day','to_user'])['id'].nunique().to_frame('n_emails').reset_index()
 
+#find distinct sessions per user per day
+location=google_fit_location.groupby(['day','user_id'])['session_id'].nunique().to_frame('total_exercise').reset_index()
+
+# merge the two table using day and user_id
+merged=pd.merge(mail_base,location,left_on=['day','to_user'],right_on=['day','user_id'])
+
+# corr() function to calculate correlation
+result=merged['n_emails'].corr(merged['total_exercise'])
 ```
 
 * .Question - 
