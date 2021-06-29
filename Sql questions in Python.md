@@ -6,15 +6,15 @@
 Here are the questions list:
 
 ### Google:
-* [1.Activity Rank](#Activity-Rank)
-* [2.Find Correlation Between E-mails And Activity Time](#Find-Correlation-Between-E-mails-And-Activity-Time)
-* [3.Total AdWords Earnings](#Total-Adwords-Earnings)
+* [1.Activity Rank](#1-Activity-Rank)
+* [2.Find Correlation Between E-mails And Activity Time](#2-Find-Correlation-Between-E-mails-And-Activity-Time)
+* [3.Total AdWords Earnings](#3-Total-Adwords-Earnings)
 
 ### Airbnb:
 * 
 
 
-### Activity Rank
+### 1-Activity Rank
 * Output the ***user, total emails, and their activity rank*** (based on their total number of email they sent).
 
 * **SQL Answer**
