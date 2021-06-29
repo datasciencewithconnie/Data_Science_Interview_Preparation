@@ -90,7 +90,84 @@ result=google_adwords_earnings.groupby(['business_type'])['adwords_earnings'].su
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
-### 
+### 4-
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
+
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+### 5-
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
+
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+### 6-
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
+
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+### 7-
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
+
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+### 8-
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
+
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+### 9-
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
+
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+### 10-
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
+
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+### 11-
 * **SQL Answer**
 ```
 
