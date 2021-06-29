@@ -1,7 +1,7 @@
 
-# Data Science Coding Question Answers :+1:
+# Data Science Coding Question Answers 
 
-The purpose of this repo is to quick refresh Sql and Python codes. The questions will be listed by Company and the answers will be provided in both SQL and Python.
+:+1: The purpose of this repo is to quick refresh Sql and Python codes. The questions will be listed by Company and the answers will be provided in both SQL and Python.
 
 Here are the question list:
 
