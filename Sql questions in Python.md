@@ -186,7 +186,8 @@ from airbnb_search_details
 group by city
 ```
 * **Python Answer** 
-```result=airbnb_search_details.groupby(['city'])['price'].min().reset_index()
+```
+result=airbnb_search_details.groupby(['city'])['price'].min().reset_index()
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
