@@ -182,11 +182,12 @@ order by avg(beds) desc
 ```
 * **Python Answer** 
 ```
-
+result=airbnb_search_details.groupby(['neighbourhood']).filter(lambda g:sum(g['beds'])>=3).groupby(['neighbourhood']).mean().reset_index()[['neighbourhood','beds']].sort_values('beds',ascending=False)
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
 ### 11-Cheapest Properties
+Find the price of the cheapest property for every city.
 * **SQL Answer**
 ```
 select city, min(price) 
