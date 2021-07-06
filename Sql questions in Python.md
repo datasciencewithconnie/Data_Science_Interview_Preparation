@@ -168,9 +168,17 @@ result=google_adwords_earnings.groupby(['business_type'])['adwords_earnings'].su
 [back to top](#Data-Science-Coding-Question-Answers)
 
 ### 10-3 Bed Minimum
+Find the average number of beds in each neighborhood that has at least 3 beds in total. 
+Output results along with the neighborhood name and sort the results based on the number of average beds in descending order.
 * **SQL Answer**
 ```
-
+SELECT 
+    neighbourhood,
+    avg(beds) AS n_bedrooms_avg
+FROM airbnb_search_details
+GROUP BY neighbourhood
+having sum(beds)>=3
+order by avg(beds) desc
 ```
 * **Python Answer** 
 ```
