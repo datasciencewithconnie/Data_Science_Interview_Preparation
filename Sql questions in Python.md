@@ -181,11 +181,12 @@ result=google_adwords_earnings.groupby(['business_type'])['adwords_earnings'].su
 ### 11-Cheapest Properties
 * **SQL Answer**
 ```
-
+select city, min(price) 
+from airbnb_search_details
+group by city
 ```
 * **Python Answer** 
-```
-
+```result=airbnb_search_details.groupby(['city'])['price'].min().reset_index()
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
