@@ -184,35 +184,73 @@ result= friends.groupby(['user_id_a'])['friend_id_c'].nunique().reset_index()
 [back to top](#Data-Science-Coding-Question-Answers)
 
 ### 7-File Contents Shuffle
+Sort the words alphabetically in 'final.txt' and make a new file named 'wacky.txt'. Output the file contents in one column and the filename 'wacky.txt' in another column.
+
 * **SQL Answer**
 ```
-
+SELECT 'wacky.txt' AS filename,
+       array_to_string(array_agg(lower(word)), ' ') AS CONTENTS
+FROM
+  (SELECT *
+   FROM
+     (SELECT UNNEST (string_to_array(CONTENTS, ' ')) AS word
+      FROM google_file_store
+      WHERE filename ILIKE 'final%' ) un
+   ORDER BY word) base
 ```
 * **Python Answer** 
 ```
-
+final = google_file_store[google_file_store['filename'].str.contains('final')]
+words = final['contents'].str.split(expand=True).stack().tolist()
+data = [['wacky.txt', sorted(words, key=lambda x: x.lower())]]
+result = pd.DataFrame(data, columns = ['filename', 'contents'])
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
 ### 8-Price Of A Handyman
+Find the price that a small handyman business is willing to pay per employee. Get the result based on the mode of the adword earnings per employee distribution. Small businesses are considered to have not more than one employee.
+
 * **SQL Answer**
 ```
-
+select mode() within group (order by earning_per_per) # mode() function finds the value appears most frequent in the specific column
+from
+(select adwords_earnings/n_employees as earning_per_per
+from google_adwords_earnings
+where business_type='handyman' and n_employees<=1) a
 ```
 * **Python Answer** 
 ```
-
+handyman = google_adwords_earnings[(google_adwords_earnings['business_type']=='handyman') & (google_adwords_earnings['n_employees']<=1)]
+handyman.loc[:,('price_willing_to_pay_per_employee')] = handyman.loc[:,('adwords_earnings')] /handyman.loc[:,('n_employees')]
+mode = handyman.mode().dropna()
+result = mode[['price_willing_to_pay_per_employee']]
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
 ### 9-Words With Two Vowels
+Find all words which contain exactly two vowels in any list in the table.
+
 * **SQL Answer**
 ```
-
+SELECT word
+FROM
+  (SELECT UNNEST (string_to_array(words1, ',')) AS word
+   FROM google_word_lists
+   UNION SELECT UNNEST (string_to_array(words2, ',')) AS word
+   FROM google_word_lists) words
+WHERE NOT word ~ '([aeiou].*){3}'
+  AND word ~ '([aeiou].*){2}'
 ```
 * **Python Answer** 
 ```
-
+w1 = google_word_lists.assign(w1=google_word_lists['words1'].str.split(',')).explode('w1')
+w1 = w1['w1'].tolist()
+w2= google_word_lists.assign(w2=google_word_lists['words2'].str.split(',')).explode('w2')
+w2 = w2['w2'].tolist()
+words = w1 + w2
+df = pd.DataFrame (words,columns=['word']).drop_duplicates(subset = 'word')
+df['Vowels'] = df.word.str.lower().str.count(r'[aeiou]')
+result = df[df['Vowels'] == 2][['word']]
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
