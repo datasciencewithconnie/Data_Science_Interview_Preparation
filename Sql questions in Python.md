@@ -125,24 +125,61 @@ result.pivot_table(index='to_user', columns='label', values='cnt', aggfunc='sum'
 
 
 ### 5-Common Letters
+Find the top 3 most common letters across all the words from both the tables. Output the letter along with the number of occurrences and order records in descending order based on the number of occurrences.
+
 * **SQL Answer**
 ```
-
+SELECT letter,
+       COUNT(*) AS n_occurences
+FROM
+  (SELECT unnest(regexp_split_to_array(word, '')) AS letter #unnest to letter
+   FROM
+     (SELECT LOWER(unnest(string_to_array(CONTENTS, ' '))) AS word #unnest to words
+      FROM google_file_store
+      UNION ALL SELECT LOWER(unnest(string_to_array(words1, ','))) AS word #unnest to words
+      FROM google_word_lists
+      UNION ALL SELECT LOWER(unnest(string_to_array(words2, ','))) AS word #unnest to words
+      FROM google_word_lists) all_words) all_letters
+GROUP BY letter
+ORDER BY n_occurences DESC
+LIMIT 3
 ```
 * **Python Answer** 
 ```
+import pandas as pd
+import numpy as np
 
+df1 = google_file_store.contents.str.lower().str.split(expand=True).stack().tolist() #unnest to words
+df2 = google_word_lists.words1.str.split(',',expand=True).stack().tolist() #unnest to words
+df3 = google_word_lists.words2.str.split(',',expand=True).stack().tolist() #unnest to words
+alist = df1+df2+df3
+tr=' '.join(alist)
+a = list(tr)
+letters = pd.DataFrame(a,columns=['letter'])
+letters['letter'].replace(' ', np.nan, inplace=True)
+letters = letters.dropna()
+result = letters.groupby('letter').size().to_frame('n_occurences').reset_index().sort_values('n_occurences', ascending = False).head(3)
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
 ### 6-Common Friends Friend
+Find the number of a user's friends' friend who are also the user's friend. Output the user id along with the count.
 * **SQL Answer**
 ```
-
+select a.user_id, 
+count(distinct c.user_id) as ff_cnt
+from google_friends_network a
+inner join google_friends_network b
+on a.friend_id=b.user_id
+inner join google_friends_network c
+on b.friend_id=c.user_id and c.friend_id=a.user_id
+group by a.user_id
 ```
 * **Python Answer** 
 ```
-
+merged = google_friends_network.merge(google_friends_network,left_on='friend_id', right_on = 'user_id', suffixes = ('_a','_b')).merge(google_friends_network,left_on=['friend_id_b','user_id_a'],right_on = ['user_id', 'friend_id'])
+friends = merged.rename(columns = {'user_id':'friend_id_c'}).drop_duplicates(['user_id_a','friend_id_c'])
+result= friends.groupby(['user_id_a'])['friend_id_c'].nunique().reset_index()
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
