@@ -296,7 +296,112 @@ result=airbnb_search_details.groupby(['city'])['price'].min().reset_index()
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
-### 12
+### 12 Submission Types
+Write a query that returns the user ID of all users that have created at least one ‘Refinance’ submission and at least one ‘InSchool’ submission.
+* **SQL Answer**
+```
+SELECT user_id
+FROM loans
+WHERE TYPE in ('Refinance', 'InSchool')
+GROUP BY user_id
+HAVING count(DISTINCT TYPE) =2
+```
+* **Python Answer** 
+```
+
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+
+### 13
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
+
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+### 14
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
+
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+### 15
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
+
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+### 16
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
+
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+### 17
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
+
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+### 18
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
+
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+### 19
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
+
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+### 20
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
+
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+### 21
 * **SQL Answer**
 ```
 
