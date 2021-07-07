@@ -6,6 +6,7 @@
 Here are the questions list:
 
 ### Easy:
+* [12-Submission Types](#12-Submission-Types)
 * [13-](#13-)
 * [14-](#14-)
 * [15-](#15-)
@@ -296,7 +297,7 @@ result=airbnb_search_details.groupby(['city'])['price'].min().reset_index()
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
-### 12 Submission Types
+### 12-Submission Types
 Write a query that returns the user ID of all users that have created at least one ‘Refinance’ submission and at least one ‘InSchool’ submission.
 * **SQL Answer**
 ```
@@ -308,7 +309,8 @@ HAVING count(DISTINCT TYPE) =2
 ```
 * **Python Answer** 
 ```
-
+result=loans[loans['type'].isin(['Refinance','InSchool'])].groupby(['user_id'])['type'].nunique().to_frame('n_types').reset_index()
+result=result[result['n_types']==2]['user_id'].unique()
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
