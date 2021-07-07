@@ -5,6 +5,15 @@
 
 Here are the questions list:
 
+### Easy:
+* [13-](#13-)
+* [14-](#14-)
+* [15-](#15-)
+* [16-](#16-) 
+* [17-](#17-)
+* [18-](#18-)
+
+
 ### Google:
 * [1-Activity Rank](#1-Activity-Rank)
 * [2-Find Correlation Between E-mails And Activity Time](#2-Find-Correlation-Between-E-mails-And-Activity-Time)
