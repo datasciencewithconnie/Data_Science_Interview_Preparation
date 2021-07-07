@@ -99,14 +99,26 @@ result=google_adwords_earnings.groupby(['business_type'])['adwords_earnings'].su
 [back to top](#Data-Science-Coding-Question-Answers)
 
 ### 4-User Email Labels
-
+Find the number of emails received by each user under each built-in email label. The email labels are: 'Promotion', 'Social', and 'Shopping'. Output the user along with the number of promotion, social, and shopping mails count.
 * **SQL Answer**
 ```
-
+select e.to_user
+,sum(case when l.label='Promotion' then 1 else 0 end) as Promo_cnt
+,sum(case when l.label='Social' then 1 else 0 end) as Social_cnt
+,sum(case when l.label='Shopping' then 1 else 0 end) as Shop_cnt
+from google_gmail_emails e
+left join google_gmail_labels l
+on e.id=l.email_id
+group by e.to_user
 ```
 * **Python Answer** 
 ```
-
+merged=pd.merge(google_gmail_emails,google_gmail_labels, left_on='id', right_on='email_id',how='left').fillna(0)
+#find the labels in the following three categories
+result= merged[merged['label'].isin(['Shopping', 'Social', 'Promotion'])] 
+#calculate count by using size()
+result = result.groupby(['to_user', 'label']).size().reset_index(name = 'cnt')
+result.pivot_table(index='to_user', columns='label', values='cnt', aggfunc='sum').fillna(0).reset_index().sort_values(by='to_user')
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
