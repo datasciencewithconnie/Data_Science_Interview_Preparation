@@ -26,6 +26,12 @@ Here are the questions list:
 * [29-](#29-)
 * [30-](#30-)
 
+### Medium:
+
+
+### Hard:
+
+
 
 ### Google:
 * [1-Activity Rank](#1-Activity-Rank)
