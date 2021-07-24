@@ -11,7 +11,7 @@ Here are the questions list:
 * [14-Find all wineries which produce wines](#14-Find-all-wineries-which-produce-wines)
 * [15-Users Activity Per Month Day](#15-Users-Activity-Per-Month-Day)
 * [16-Unique Users Per Client Per Month](#16-Unique-Users-Per-Client-Per-Month) 
-* [17-](#17-)
+* [17-Customer Average Orders](#17-Customer-Average-Orders)
 * [18-](#18-)
 * [19-](#19-) 
 * [20-](#20-)
@@ -403,13 +403,22 @@ fact_events.groupby([fact_events['client_id'],fact_events['time_id'].dt.month])[
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
-### 17
+### 17 Customer Average Orders
+How many customers placed an order and what is the average order amount?
 * **SQL Answer**
 ```
-
+select 
+count(distinct customer_id) as customer_cnt
+,avg(amount)
+from postmates_orders
 ```
 * **Python Answer** 
 ```
+#method 1
+df=postmates_orders
+pd.DataFrame([[df.customer_id.nunique()],[df.amount.mean()]],index=['customer_id','amount']).reset_index()
+#method 2 (use agg function)
+result=postmates_orders.agg({'customer_id':'nunique','amount':'mean'}).reset_index()
 
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
