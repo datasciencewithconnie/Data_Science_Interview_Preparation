@@ -9,7 +9,7 @@ Here are the questions list:
 * [12-Submission Types](#12-Submission-Types)
 * [13-Apartments in New York City and Harlem](#13-Apartments-in-New-York-City-and-Harlem)
 * [14-Find all wineries which produce wines](#14-Find-all-wineries-which-produce-wines)
-* [15-](#15-)
+* [15-Users Activity Per Month Day](#15-Users-Activity-Per-Month-Day)
 * [16-](#16-) 
 * [17-](#17-)
 * [18-](#18-)
@@ -350,10 +350,16 @@ result=winemag_p1[winemag_p1['description'].str.contains('plum|cherry|rose|hazel
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
-### 15
+### 15 Users Activity Per Month Day
+Return a distribution of users activity per day of the month
+
 * **SQL Answer**
 ```
-
+select 
+extract( day from post_date) as day
+,count(distinct post_id) as post_cnt
+from facebook_posts
+group by extract( day from post_date)
 ```
 * **Python Answer** 
 ```
