@@ -363,7 +363,7 @@ group by extract( day from post_date)
 ```
 * **Python Answer** 
 ```
-
+facebook_posts.groupby(pd.to_datetime(facebook_posts['post_date']).dt.day)['post_id'].count().to_frame('user_activity').reset_index()
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
