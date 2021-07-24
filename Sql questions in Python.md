@@ -13,6 +13,18 @@ Here are the questions list:
 * [16-](#16-) 
 * [17-](#17-)
 * [18-](#18-)
+* [19-](#19-) 
+* [20-](#20-)
+* [21-](#21-)
+* [22-](#22-)
+* [23-](#23-)
+* [24-](#24-)
+* [25-](#25-)
+* [26-](#26-)
+* [27-](#27-)
+* [28-](#28-)
+* [29-](#29-)
+* [30-](#30-)
 
 
 ### Google:
@@ -429,6 +441,112 @@ facebook_posts.groupby(pd.to_datetime(facebook_posts['post_date']).dt.day)['post
 ```
 * **Python Answer** 
 ```
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+### 22
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+### 23
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
 
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
+
+
+### 24
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
+
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+
+### 25
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
+
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+
+### 26
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
+
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+
+### 27
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
+
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+
+### 28
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
+
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+
+### 29
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
+
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+
+### 30
+* **SQL Answer**
+```
+
+```
+* **Python Answer** 
+```
+
+```
+[back to top](#Data-Science-Coding-Question-Answers)
+
+
