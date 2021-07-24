@@ -8,7 +8,7 @@ Here are the questions list:
 ### Easy:
 * [12-Submission Types](#12-Submission-Types)
 * [13-Apartments in New York City and Harlem](#13-Apartments-in-New-York-City-and-Harlem)
-* [14-](#14-)
+* [14-Find all wineries which produce wines](#14-Find-all-wineries-which-produce-wines)
 * [15-](#15-)
 * [16-](#16-) 
 * [17-](#17-)
@@ -333,14 +333,20 @@ result=airbnb_search_details[(airbnb_search_details['city']=='NYC')
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
-### 14
+### 14 Find all wineries which produce wines
+Find all wineries which produce wines by possessing aromas of plum, cherry, rose, or hazelnut.
 * **SQL Answer**
 ```
-
+select distinct winery from winemag_p1
+WHERE description like '%plum%' or
+description like '%cherry%'  or
+description like '%rose%'  or
+description like '%hazelnut%' 
 ```
 * **Python Answer** 
 ```
-
+#'|' represents or
+result=winemag_p1[winemag_p1['description'].str.contains('plum|cherry|rose|hazelnut')]['winery'].unique()
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
