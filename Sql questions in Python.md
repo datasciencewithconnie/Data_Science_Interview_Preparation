@@ -327,7 +327,9 @@ limit 50
 ```
 * **Python Answer** 
 ```
-
+result=airbnb_search_details[(airbnb_search_details['city']=='NYC')
+&(airbnb_search_details['property_type']=='Apartment') 
+&(airbnb_search_details['neighbourhood']=='Harlem')].head(50)
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
