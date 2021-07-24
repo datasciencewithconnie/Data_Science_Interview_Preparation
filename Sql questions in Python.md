@@ -7,7 +7,7 @@ Here are the questions list:
 
 ### Easy:
 * [12-Submission Types](#12-Submission-Types)
-* [13-](#13-)
+* [13-Apartments in New York City and Harlem](#13-Apartments-in-New-York-City-and-Harlem)
 * [14-](#14-)
 * [15-](#15-)
 * [16-](#16-) 
@@ -315,10 +315,15 @@ result=result[result['n_types']==2]['user_id'].unique()
 [back to top](#Data-Science-Coding-Question-Answers)
 
 
-### 13
+### 13-Apartments in New York City and Harlem
+Find the search details of 50 apartment searches the Harlem neighborhood of New York City.
 * **SQL Answer**
 ```
-
+select  * from airbnb_search_details
+where city='NYC' and 
+Property_type='Apartment' and
+neighbourhood='Harlem'
+limit 50
 ```
 * **Python Answer** 
 ```
