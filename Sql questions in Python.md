@@ -10,7 +10,7 @@ Here are the questions list:
 * [13-Apartments in New York City and Harlem](#13-Apartments-in-New-York-City-and-Harlem)
 * [14-Find all wineries which produce wines](#14-Find-all-wineries-which-produce-wines)
 * [15-Users Activity Per Month Day](#15-Users-Activity-Per-Month-Day)
-* [16-](#16-) 
+* [16-Unique Users Per Client Per Month](#16-Unique-Users-Per-Client-Per-Month) 
 * [17-](#17-)
 * [18-](#18-)
 * [19-](#19-) 
@@ -385,14 +385,21 @@ facebook_posts.groupby(pd.to_datetime(facebook_posts['post_date']).dt.day)['post
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
-### 16
+### 16 Unique Users Per Client Per Month
+Write a query that returns the number of unique users per client per month
 * **SQL Answer**
 ```
-
+select 
+count(distinct user_id) as cnt,
+extract(month from time_id), 
+client_id
+from fact_events
+group by extract(month from time_id), client_id
 ```
 * **Python Answer** 
+* In Python pandas, use dt.month to extract month from date format, use groupby([A,B]) to apply groupby on both A and B.
 ```
-
+fact_events.groupby([fact_events['client_id'],fact_events['time_id'].dt.month])['user_id'].nunique().reset_index()
 ```
 [back to top](#Data-Science-Coding-Question-Answers)
 
